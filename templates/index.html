@@ -1,0 +1,32 @@
+html
+Copy code
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Bernoulli's Theorem</title>
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+<h1>Bernoulli's Theorem</h1>
+<p>Bernoulli's theorem describes the relationship between fluid velocity, pressure, and height.</p>
+<form action="/calculate" method="post">
+<div class="form-group">
+<label for="density">Density (kg/m³):</label>
+<input type="number" class="form-control" id="density" name="density" required>
+</div>
+<div class="form-group">
+<label for="velocity">Velocity (m/s):</label>
+<input type="number" class="form-control" id="velocity" name="velocity" required>
+</div>
+<div class="form-group">
+<label for="height">Height (m):</label>
+<input type="number" class="form-control" id="height" name="height" required>
+</div>
+<button type="submit" class="btn btn-primary">Calculate</button>
+</form>
+</div>
+</body>
+</html>
+
